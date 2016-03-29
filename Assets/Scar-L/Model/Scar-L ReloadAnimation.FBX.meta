@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: a1d6d0bdad6d4f0448a32e2fbc2dc959
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm
+    100002: Arm001
+    100004: eotech_body
+    100006: Foerarm
+    100008: Foerarm001
+    100010: Index004
+    100012: Index005
+    100014: Index006
+    100016: Index1
+    100018: Index2
+    100020: Index3
+    100022: ironsight
+    100024: LeftArm
+    100026: mag
+    100028: Middle004
+    100030: Middle005
+    100032: Middle006
+    100034: Middle1
+    100036: Middle2
+    100038: Middle3
+    100040: Pinky004
+    100042: Pinky005
+    100044: Pinky006
+    100046: Pinky1
+    100048: Pinky2
+    100050: Pinky3
+    100052: RightArm
+    100054: Ring004
+    100056: Ring005
+    100058: Ring006
+    100060: Ring1
+    100062: Ring2
+    100064: Ring3
+    100066: //RootNode
+    100068: Thumb004
+    100070: Thumb005
+    100072: Thumb006
+    100074: Thumb1
+    100076: Thumb2
+    100078: Thumb3
+    100080: vertcrip
+    100082: Wrist
+    100084: Wrist001
+    400000: Arm
+    400002: Arm001
+    400004: eotech_body
+    400006: Foerarm
+    400008: Foerarm001
+    400010: Index004
+    400012: Index005
+    400014: Index006
+    400016: Index1
+    400018: Index2
+    400020: Index3
+    400022: ironsight
+    400024: LeftArm
+    400026: mag
+    400028: Middle004
+    400030: Middle005
+    400032: Middle006
+    400034: Middle1
+    400036: Middle2
+    400038: Middle3
+    400040: Pinky004
+    400042: Pinky005
+    400044: Pinky006
+    400046: Pinky1
+    400048: Pinky2
+    400050: Pinky3
+    400052: RightArm
+    400054: Ring004
+    400056: Ring005
+    400058: Ring006
+    400060: Ring1
+    400062: Ring2
+    400064: Ring3
+    400066: //RootNode
+    400068: Thumb004
+    400070: Thumb005
+    400072: Thumb006
+    400074: Thumb1
+    400076: Thumb2
+    400078: Thumb3
+    400080: vertcrip
+    400082: Wrist
+    400084: Wrist001
+    2300000: eotech_body
+    2300002: ironsight
+    2300004: mag
+    2300006: vertcrip
+    3300000: eotech_body
+    3300002: ironsight
+    3300004: mag
+    3300006: vertcrip
+    4300000: LeftArm
+    4300002: RightArm
+    4300004: ironsight
+    4300006: mag
+    4300008: eotech_body
+    4300010: vertcrip
+    7400000: Reload
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: LeftArm
+    13700002: RightArm
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Reload
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 95
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
