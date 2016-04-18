@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class GunFiring : MonoBehaviour {
@@ -52,7 +53,7 @@ public class GunFiring : MonoBehaviour {
     {
         if (healthPoints <= 0)
         {
-            Destroy(this.gameObject);
+			SceneManager.LoadScene (0);
         }
     }
 
