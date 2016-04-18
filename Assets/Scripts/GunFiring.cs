@@ -6,7 +6,6 @@ public class GunFiring : MonoBehaviour {
     public AudioSource soundSource;
     public AudioClip firingSound;
     public GameObject bulletParticle;
-    public int damage = 50;
 
     void Start()
     {
@@ -24,8 +23,8 @@ public class GunFiring : MonoBehaviour {
             soundSource.PlayOneShot(firingSound, 0.7f);
             if(Physics.Raycast(bulletRaycast, out hitInfo))
             {
-                Instantiate(bulletParticle, hitInfo.point, Quaternion.LookRotation(hitInfo.normal));
-                Destroy(bulletParticle, 1);
+                Object bullet = Instantiate(bulletParticle, hitInfo.point, Quaternion.LookRotation(hitInfo.normal));
+                Destroy(bullet, 0.5f);
                 if (hitInfo.collider.gameObject.CompareTag("Destructible"))
                 {
                     Destroy(hitInfo.collider.gameObject);
